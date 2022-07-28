@@ -14,5 +14,10 @@ package com.bridgelap.day14ds;
         public void print() {
             linkedList.print();
         }
+
+        public T remove() {
+            linkedList.remove();
+            return null;
+        }
     }
-}
+

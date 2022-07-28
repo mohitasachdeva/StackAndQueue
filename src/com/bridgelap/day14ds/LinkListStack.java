@@ -20,6 +20,9 @@ public class LinkListStack {
         queue1.add(70);
         queue1.print();
         System.out.println();
+        System.out.println(queue1.remove());
+        queue1.print();
+        System.out.println();
     }
 }
 
